@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to right,rgb(7, 176, 137),rgb(32, 143, 156));
+}
+.container
+{
+    width: 60%;
+    height: 550px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 15px;
+}
+.part1
+{
+    width: 50%;
+    height: 100%;
+}
+.part1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.part2
+{
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.part2 .header h1
+{
+    margin-top: 30px;
+    color: rgb(32, 143, 156); 
+    text-align: center;
+}
+.header h4
+{
+    text-align: center;
+    /* margin-top: 10px; */
+    color: rgb(32, 143, 156); 
+}
+.header2
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+.header2 label
+{
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: black;
+}
+.inp1 input
+{
+    width: 250px;
+    padding: 10px;
+    margin-left: 85px;
+    border: none;
+    background-color: aliceblue;
+}
+.email
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.email label
+{
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: black;
+}
+.inp2 input
+{
+    width: 250px;
+    padding: 10px;
+    margin-left: 85px;
+    border: none;
+    background-color: aliceblue;
+}
+.gender1
+{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gender label
+{
+    font-size: 1em;
+
+}
+input[type=radio]
+{
+    margin-top: 8px;
+    margin-left: 80px;
+    
+}
+.Gender label
+{
+    font-size: 1.3em;
+}
+.DOB
+{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+.DOB label
+{
+    font-size: 1.3em;
+}
+input[type=date]
+{
+    width: 120px;
+    margin-left: 30px;
+}
+.city
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.city label
+{
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: black;
+}
+.inp3 input
+{
+    width: 250px;
+    padding: 10px;
+    margin-left: 100px;
+    border: none;
+    background-color: aliceblue;
+}
+.country
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+.country label
+{
+    margin-top: 8px;
+    font-size: 1.3em;
+    color: black;
+}
+.inp4 input
+{
+    width: 250px;
+    padding: 10px;
+    margin-left: 70px;
+    border: none;
+    background-color: aliceblue;
+}
+.button
+{
+    margin-top: 90px;
+    margin-left: 180px;
+    border: none;
+    display: flex;
+}
+.button1 button
+{
+    width: 80px;
+    padding: 5px;
+    background-color: violet;
+}
+.button2 button
+{
+    margin-left: 10px;
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(7, 176, 137);
+}
